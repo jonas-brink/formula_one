@@ -1,0 +1,100 @@
+html {
+    background-color: #15151d;
+}
+
+body {
+    background-color: #15151d !important;
+}
+
+
+ul.drivers_list {
+    width: 35%;
+    float: left;
+    min-height: 300px;
+}
+
+div.formula_list {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    cursor: pointer;
+}
+
+div.alfa {
+    color: white !important;
+    background-color: #931336;
+}
+
+div.alphatauri {
+    color: white !important;
+    background-color: #162432;
+}
+
+div.alpine {
+    color: white !important;
+    background-color: #03aced;
+}
+
+div.aston_martin {
+    color: white !important;
+    background-color: #004b51;
+}
+
+div.ferrari {
+    color: white !important;
+    background-color: #e9050c;
+}
+
+div.haas {
+    color: black !important;
+    background-color: #fcfdfa;
+}
+
+div.mclaren {
+    color: white !important;
+    background-color: #fdbb40;
+}
+
+div.mercedes {
+    color: white !important;
+    background-color: #595c61;
+}
+
+div.red_bull {
+    color: white !important;
+    background-color: #33384d;
+}
+
+div.williams {
+    color: black !important;
+    background-color: #add3dd;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.f1_logo {
+    height: 60px;
+}
+
+.header_item:hover {
+    background-color: #15151d;
+    border-radius: 10px;
+}
+
+.header_link {
+    color: white !important;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) { 
+    div.formula_list.constructor {
+        display: none;
+    }
+}
